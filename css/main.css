@@ -1,0 +1,173 @@
+body {
+     font-family: 'Roboto' !important;
+     font-size: 48px;
+     margin:auto;
+     background-color: #deefe2;
+     overflow-x: hidden;
+}
+
+.customColorX{
+  color : #e24848;
+}
+
+.customColorY{
+  color : #34c150;
+}
+
+.thermoImage{
+    width: 30px;
+    height: 30px;
+    margin-top: -2px;
+    padding-left: 4px;
+}
+
+.cloudIcon{
+  padding-top: 5px !important;
+  font-size: 34px !important;
+}
+.container{
+  width: 960px;
+  margin: auto;
+}
+
+header{
+  overflow: hidden;
+  position: fixed;
+  background-color: #deefe2;
+}
+
+header h2{
+  float: left;
+  padding-top: 2px;
+  font-size: 38px;
+}
+
+nav{
+  float:right;
+  padding-top: 15px !important;
+  padding-left: 275px !important;
+}
+
+nav li{
+  display: inline;
+  font-size: 20px;
+}
+
+li a{
+  text-decoration: none;
+  color: #262626;
+}
+
+li a:hover{
+  color : #34c150;
+}
+
+.selected{
+  color : #34c150;
+}
+
+.hero{
+  background: url(../images/fresh.jpg) no-repeat;
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.tag_line:before{
+  content:"“";
+  color : #e24848;
+}
+
+.tag_line:after{
+  content:"”";
+  color : #34c150;
+}
+
+.tag_line{
+  padding-top: 250px;
+  padding-left: 50px;
+  font-size: 50px;
+  -ms-transform: rotate(-7deg); /* IE 9 */
+  -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+  transform: rotate(-7deg);
+}
+
+.para{
+  padding-top: 20px;
+  font-size: 15px !important;
+}
+
+.ColImages{
+  max-width: 300px !important;
+  max-height: 200px !important;
+}
+
+.testimonal{
+  font-size: 18px;
+  font-style: italic;
+}
+
+.testimonal:before{
+  content:"“ ";
+  color : #e24848;
+}
+
+.testimonal:after{
+  content:" ”";
+  color : #34c150;
+}
+
+.testimonalRight{
+  overflow: hidden;
+  text-align: justify;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.centerAlign{
+  height: 100%;
+}
+.textAlign h1,h2{
+  text-align: center;
+}
+
+
+footer{
+  margin-top: 40px !important;
+}
+
+address a{
+  color: #e24848;
+  text-decoration: none;
+}
+
+section li{
+  display: inline;
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+section h2 { color: #34c150; font-size: 26px; letter-spacing: 1px; padding: 0 0 10px;}
+
+section li a{
+  color : #262626;
+}
+
+.footerP{
+  text-align: center;
+}
+.footerP p{
+  font-size: 15px;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.borderBottom{
+  padding-top: 20px;
+  border-bottom: 1px solid #262626;
+}
+
+.copyright{
+  text-align: right;
+}
